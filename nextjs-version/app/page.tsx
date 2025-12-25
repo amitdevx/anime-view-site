@@ -28,14 +28,12 @@ export default function Home() {
         </video>
       </div>
 
-      <div className="bg-[rgba(0,0,0,0.212)] w-screen h-screen flex flex-col overflow-hidden relative backdrop-blur-[5px] font-medium">
-        <div className="flex flex-col h-full mx-auto w-full max-w-screen-2xl">
-          <Header />
-          
-          <div className="flex grow overflow-hidden">
-            <Sidebar />
-            <MainContent />
-          </div>
+      <div className="bg-[rgba(0,0,0,0.212)] max-w-312.5 max-h-215 h-[90vh] flex flex-col overflow-hidden relative w-full rounded-[14px] backdrop-blur-[5px] font-medium shadow-lg">
+        <Header />
+        
+        <div className="flex grow overflow-hidden">
+          <Sidebar />
+          <MainContent />
         </div>
 
         <div className="overlay-app fixed w-full h-full left-0 top-0 pointer-events-auto bg-[rgba(36,39,59,0.8)] opacity-0 invisible transition-all"></div>
