@@ -1,39 +1,43 @@
 # Anime View Site
 
 A modern anime streaming interface built with Next.js and React, featuring a dark-themed UI with theme toggling capabilities.
-
+![Next.js](https://img.shields.io/badge/Next.js-14+-000000?logo=nextdotjs\&logoColor=white)
+![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react\&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3+-38B2AC?logo=tailwindcss\&logoColor=white)
+![License](https://img.shields.io/badge/License-Free%20to%20Use-green)
 ## Project Structure
 
 ```
 anime-view-site/
-├── app/                    # Next.js App Router directory
-│   ├── layout.tsx         # Root layout component
-│   ├── page.tsx           # Home page
-│   └── globals.css        # Global styles
-├── components/            # Reusable React components
-│   ├── Header.tsx         # Header with navigation
-│   ├── Sidebar.tsx        # Navigation sidebar
-│   ├── MainContent.tsx    # Main content area
-│   ├── AnimeCard.tsx      # Anime card component
-│   └── ThemeToggle.tsx    # Theme switcher
-├── context/               # React context providers
-│   └── ThemeContext.tsx   # Theme context
-├── public/                # Static assets
-│   └── assets/            # Images, videos, and other media
-├── src/                   # Additional source files
-├── package.json           # Project dependencies
-├── tsconfig.json          # TypeScript configuration
-└── next.config.ts         # Next.js configuration
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── Header.tsx
+│   ├── Sidebar.tsx
+│   ├── MainContent.tsx
+│   ├── AnimeCard.tsx
+│   └── ThemeToggle.tsx
+├── context/
+│   └── ThemeContext.tsx
+├── public/
+│   └── assets/
+├── src/
+├── package.json
+├── tsconfig.json
+└── next.config.ts
 ```
 
 ## Features
 
-- 🎨 Dark theme with light mode toggle
-- 📱 Responsive design
-- 🎬 Anime content display with cards
-- 🔍 Search functionality
-- 🎥 Video background support
-- ⚡ Server-side rendering with Next.js
+-  Dark theme with light mode toggle
+-  Responsive design
+-  Anime content display with cards
+-  Search functionality
+-  Video background support
+-  Server-side rendering with Next.js
 
 ## Getting Started
 
@@ -73,4 +77,4 @@ npm start
 
 ## License
 
-MIT
+FREE TO USE
