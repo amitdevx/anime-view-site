@@ -32,12 +32,7 @@ anime-view-site/
 
 ## Features
 
--  Dark theme with light mode toggle
--  Responsive design
--  Anime content display with cards
--  Search functionality
--  Video background support
--  Server-side rendering with Next.js
+under contruction 
 
 ## Getting Started
 
